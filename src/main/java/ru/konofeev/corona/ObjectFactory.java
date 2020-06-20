@@ -26,6 +26,12 @@ public class ObjectFactory {
             classImplement = config.getImplClass(type);
         }
 
-        return classImplement.getDeclaredConstructor().newInstance();
+        T typeImpl = classImplement.getDeclaredConstructor().newInstance();
+
+        for (Field field: classImplement.getDeclaredFields()) {
+            InjectProperty annotation = field.getAnnotation(InjectProperty.class);
+        }
+
+        return typeImpl;
     }
 }
