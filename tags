@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/336ebeee/
+1dZvueNo3PiLDtjDoQmpr4CSVaZ	.idea/workspace.xml	/^  <component name="ProjectId" id="1dZvueNo3PiLDtjDoQmpr4CSVaZ" \/>$/;"	i
+69a9a619-c0fa-4139-a2b1-7f9a01d47777	.idea/workspace.xml	/^      <changelist id="69a9a619-c0fa-4139-a2b1-7f9a01d47777" name="Default Changelist" comment=""/;"	i
+69a9a619-c0fa-4139-a2b1-7f9a01d47777	.idea/workspace.xml	/^    <list default="true" id="69a9a619-c0fa-4139-a2b1-7f9a01d47777" name="Default Changelist" com/;"	i
+APP_BASE_NAME	gradlew.bat	/^set APP_BASE_NAME=%~n0$/;"	v
+APP_HOME	gradlew.bat	/^set APP_HOME=%DIRNAME%$/;"	v
+Announcer	src/main/java/ru/konofeev/corona/Announcer.java	/^public interface Announcer {$/;"	i
+CLASSPATH	gradlew.bat	/^set CLASSPATH=%APP_HOME%\\gradle\\wrapper\\gradle-wrapper.jar$/;"	v
+CMD_LINE_ARGS	gradlew.bat	/^set CMD_LINE_ARGS=$/;"	v
+CMD_LINE_ARGS	gradlew.bat	/^set CMD_LINE_ARGS=%*$/;"	v
+Config	src/main/java/ru/konofeev/corona/Config.java	/^public interface Config {$/;"	i
+ConsoleAnnouncer	src/main/java/ru/konofeev/corona/ConsoleAnnouncer.java	/^public class ConsoleAnnouncer implements Announcer {$/;"	c
+CoronaDesinfector	src/main/java/ru/konofeev/corona/CoronaDesinfector.java	/^public class CoronaDesinfector$/;"	c
+DEFAULT_JVM_OPTS	gradlew.bat	/^set DEFAULT_JVM_OPTS="-Xmx64m"$/;"	v
+DIRNAME	gradlew.bat	/^if "%DIRNAME%" == "" set DIRNAME=.$/;"	v
+DIRNAME	gradlew.bat	/^set DIRNAME=%~dp0$/;"	v
+Default	.idea/workspace.xml	/^    <task active="true" id="Default" summary="Default task">$/;"	i
+INSTANCE	src/main/java/ru/konofeev/corona/ObjectFactory.java	/^    private static final ObjectFactory INSTANCE = new ObjectFactory();$/;"	f	class:ObjectFactory	file:
+JAVA_EXE	gradlew.bat	/^set JAVA_EXE=%JAVA_HOME%\/bin\/java.exe$/;"	v
+JAVA_EXE	gradlew.bat	/^set JAVA_EXE=java.exe$/;"	v
+JAVA_HOME	gradlew.bat	/^set JAVA_HOME=%JAVA_HOME:"=%$/;"	v
+JavaConfig	src/main/java/ru/konofeev/corona/JavaConfig.java	/^    public JavaConfig(String packageToScan)$/;"	m	class:JavaConfig
+JavaConfig	src/main/java/ru/konofeev/corona/JavaConfig.java	/^public class JavaConfig implements Config {$/;"	c
+Main	src/main/java/ru/konofeev/corona/Main.java	/^public class Main$/;"	c
+ObjectFactory	src/main/java/ru/konofeev/corona/ObjectFactory.java	/^    private ObjectFactory() {$/;"	m	class:ObjectFactory	file:
+ObjectFactory	src/main/java/ru/konofeev/corona/ObjectFactory.java	/^public class ObjectFactory {$/;"	c
+Policeman	src/main/java/ru/konofeev/corona/Policeman.java	/^public interface Policeman {$/;"	i
+PolicemanImpl	src/main/java/ru/konofeev/corona/PolicemanImpl.java	/^public class PolicemanImpl implements Policeman {$/;"	c
+Room	src/main/java/ru/konofeev/corona/Room.java	/^public class Room$/;"	c
+_SKIP	gradlew.bat	/^set _SKIP=2$/;"	v
+annonce	src/main/java/ru/konofeev/corona/Announcer.java	/^    void annonce(String message);$/;"	m	interface:Announcer
+annonce	src/main/java/ru/konofeev/corona/ConsoleAnnouncer.java	/^    public void annonce(String message)$/;"	m	class:ConsoleAnnouncer
+announcer	src/main/java/ru/konofeev/corona/CoronaDesinfector.java	/^    private Announcer announcer = ObjectFactory.getInstance().createObject(Announcer.class);$/;"	f	class:CoronaDesinfector	file:
+config	src/main/java/ru/konofeev/corona/ObjectFactory.java	/^    private Config config = new JavaConfig("ru.konofeev.corona");$/;"	f	class:ObjectFactory	file:
+createObject	src/main/java/ru/konofeev/corona/ObjectFactory.java	/^    public <T> T createObject(Class<T> type) {$/;"	m	class:ObjectFactory
+desinfect	src/main/java/ru/konofeev/corona/CoronaDesinfector.java	/^    private void desinfect(Room room)$/;"	m	class:CoronaDesinfector	file:
+distributionBase	gradle/wrapper/gradle-wrapper.properties	/^distributionBase=GRADLE_USER_HOME$/;"	k
+distributionPath	gradle/wrapper/gradle-wrapper.properties	/^distributionPath=wrapper\/dists$/;"	k
+distributionUrl	gradle/wrapper/gradle-wrapper.properties	/^distributionUrl=https\\:\/\/services.gradle.org\/distributions\/gradle-5.2.1-bin.zip$/;"	k
+end	gradlew.bat	/^:end$/;"	l
+execute	gradlew.bat	/^:execute$/;"	l
+fail	gradlew.bat	/^:fail$/;"	l
+findJavaFromJavaHome	gradlew.bat	/^:findJavaFromJavaHome$/;"	l
+getImplClass	src/main/java/ru/konofeev/corona/Config.java	/^    <T> Class<? extends T> getImplClass(Class<T> interfaceType);$/;"	m	interface:Config
+getImplClass	src/main/java/ru/konofeev/corona/JavaConfig.java	/^    public <T> Class<? extends T> getImplClass(Class<T> interfaceType) {$/;"	m	class:JavaConfig
+getInstance	src/main/java/ru/konofeev/corona/ObjectFactory.java	/^    public static ObjectFactory getInstance() {$/;"	m	class:ObjectFactory
+gradle.version	.gradle/buildOutputCleanup/cache.properties	/^gradle.version=5.5.1$/;"	k
+init	gradlew.bat	/^:init$/;"	l
+main	src/main/java/ru/konofeev/corona/Main.java	/^    public static void main(String[] args)$/;"	m	class:Main
+mainEnd	gradlew.bat	/^:mainEnd$/;"	l
+makePoliceLeaveRoom	src/main/java/ru/konofeev/corona/Policeman.java	/^    void makePoliceLeaveRoom();$/;"	m	interface:Policeman
+makePoliceLeaveRoom	src/main/java/ru/konofeev/corona/PolicemanImpl.java	/^    public void makePoliceLeaveRoom() {$/;"	m	class:PolicemanImpl
+omega	gradlew.bat	/^:omega$/;"	l
+policeman	src/main/java/ru/konofeev/corona/CoronaDesinfector.java	/^    private Policeman policeman = ObjectFactory.getInstance().createObject(Policeman.class);$/;"	f	class:CoronaDesinfector	file:
+ru.konofeev.corona	src/main/java/ru/konofeev/corona/Announcer.java	/^package ru.konofeev.corona;$/;"	p
+ru.konofeev.corona	src/main/java/ru/konofeev/corona/Config.java	/^package ru.konofeev.corona;$/;"	p
+ru.konofeev.corona	src/main/java/ru/konofeev/corona/ConsoleAnnouncer.java	/^package ru.konofeev.corona;$/;"	p
+ru.konofeev.corona	src/main/java/ru/konofeev/corona/CoronaDesinfector.java	/^package ru.konofeev.corona;$/;"	p
+ru.konofeev.corona	src/main/java/ru/konofeev/corona/JavaConfig.java	/^package ru.konofeev.corona;$/;"	p
+ru.konofeev.corona	src/main/java/ru/konofeev/corona/Main.java	/^package ru.konofeev.corona;$/;"	p
+ru.konofeev.corona	src/main/java/ru/konofeev/corona/ObjectFactory.java	/^package ru.konofeev.corona;$/;"	p
+ru.konofeev.corona	src/main/java/ru/konofeev/corona/Policeman.java	/^package ru.konofeev.corona;$/;"	p
+ru.konofeev.corona	src/main/java/ru/konofeev/corona/PolicemanImpl.java	/^package ru.konofeev.corona;$/;"	p
+ru.konofeev.corona	src/main/java/ru/konofeev/corona/Room.java	/^package ru.konofeev.corona;$/;"	p
+scanner	src/main/java/ru/konofeev/corona/JavaConfig.java	/^    private Reflections scanner;$/;"	f	class:JavaConfig	file:
+start	src/main/java/ru/konofeev/corona/CoronaDesinfector.java	/^    public void start(Room room)$/;"	m	class:CoronaDesinfector
+win9xME_args	gradlew.bat	/^:win9xME_args$/;"	l
+win9xME_args_slurp	gradlew.bat	/^:win9xME_args_slurp$/;"	l
+zipStoreBase	gradle/wrapper/gradle-wrapper.properties	/^zipStoreBase=GRADLE_USER_HOME$/;"	k
+zipStorePath	gradle/wrapper/gradle-wrapper.properties	/^zipStorePath=wrapper\/dists$/;"	k
