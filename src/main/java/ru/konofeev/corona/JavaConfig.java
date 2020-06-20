@@ -5,10 +5,11 @@ import java.util.Map;
 import org.reflections.Reflections;
 
 public class JavaConfig implements Config {
-    private Reflections scanner;
-    private Map<Class, Class> interfaceToClassImpl;
+    private final Reflections scanner;
+    private final Map<Class, Class> interfaceToClassImpl;
 
-    public JavaConfig(String packageToScan, Map<Class, Class> interfaceToClassImpl)
+    public JavaConfig(String packageToScan,
+                      Map<Class, Class> interfaceToClassImpl)
     {
         scanner = new Reflections(packageToScan);
         this.interfaceToClassImpl = interfaceToClassImpl;

@@ -1,15 +1,13 @@
 plugins {
     id 'java'
     id 'application'
+    id 'idea'
 }
 
 group 'ru.konofeev.corona'
 version '1.0'
 
 mainClassName='ru.konofeev.corona.Main';
-compileJava.options.encoding = 'UTF-8'
-
-sourceCompatibility = 1.8
 
 repositories
 {
@@ -38,9 +36,4 @@ repositories
 test
 {
     testLogging.showStandardStreams = true
-}
-
-tasks.withType(JavaCompile)
-{
-    options.encoding = 'UTF-8'
 }
